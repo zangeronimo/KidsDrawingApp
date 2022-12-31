@@ -97,6 +97,11 @@ class MainActivity : AppCompatActivity() {
             drawingView?.onClickUndo()
         }
 
+        val ibNew : ImageButton = findViewById(R.id.ib_new)
+        ibNew.setOnClickListener{
+            drawingView?.onClickNew()
+        }
+
         val ibSave : ImageButton = findViewById(R.id.ib_save)
         ibSave.setOnClickListener{
 

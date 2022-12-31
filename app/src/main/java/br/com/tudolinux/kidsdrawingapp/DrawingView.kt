@@ -33,6 +33,13 @@ class DrawingView(context: Context, attrs: AttributeSet) : View(context, attrs) 
         }
     }
 
+    fun onClickNew(){
+        if(mPaths.size > 0){
+            mPaths.clear()
+            invalidate()
+        }
+    }
+
     private fun setUpDrawing(){
         mDrawPaint = Paint()
         mDrawPath = CustomPath(color, mBrushSize)

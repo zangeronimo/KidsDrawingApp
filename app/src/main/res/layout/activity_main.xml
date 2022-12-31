@@ -178,6 +178,14 @@
             android:scaleType="fitXY"
             android:src="@drawable/ic_save"/>
 
+        <ImageButton
+            android:id="@+id/ib_new"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_new"/>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
