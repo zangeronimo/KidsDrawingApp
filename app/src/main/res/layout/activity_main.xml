@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/ic_luciano"
+            android:src="@drawable/background_drawing_view_layout"
          />
         <br.com.tudolinux.kidsdrawingapp.DrawingView
             android:id="@+id/drawing_view"
@@ -162,7 +162,6 @@
             android:scaleType="fitXY"
             android:src="@drawable/ic_undo"/>
 
-
         <ImageButton
             android:id="@+id/ib_brush"
             android:layout_width="50dp"
@@ -170,6 +169,14 @@
             android:layout_margin="5dp"
             android:scaleType="fitXY"
             android:src="@drawable/ic_brush"/>
+
+        <ImageButton
+            android:id="@+id/ib_save"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_save"/>
 
     </LinearLayout>
 
